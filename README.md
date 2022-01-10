@@ -55,9 +55,9 @@ If you are successful you will receive a message such as:
 ## Using the IoC lookups in Humio
 - Log into your Humio console
 - In the search field use the match() query function and pass to it the fields you want to lookup and against with column in the Lookup File you want to match against. For example:
-> match(file="ipblocklist.csv", column=ip, field=id.resp_h)
+> match(file="ipblocklist.csv", column=FEODO_ip, field=id.resp_h)
 
 AND for hostnames
-> match(file="ipblocklist.csv", column=hostname, field=server_name)
+> match(file="ipblocklist.csv", column=FEODO_hostname, field=server_name)
 
 For more information on how to use Lookup Files please refer to - https://library.humio.com/reference/query-functions/functions/match/
