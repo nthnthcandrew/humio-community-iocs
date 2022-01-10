@@ -64,6 +64,6 @@ For more information on how to use Lookup Files please refer to - https://librar
 
 ### Triggering Results
 In general you may find that you have no events that will match to an entry in the Lookup File. To validate your queries/Alerts/Dashboards are working use the configuration file to enable Triggering. This will allow you to specify IP addresses and Hostnames that you know exist in your events to produce some enriched search results. You enable the functionality, disabled by deafult, by setting the "Trigger_Result" value to **True** and providing relevant data in the "Trigger_Data" key. 
-- **Ensure that you adhere to the format of the Trigger_Data**
+- **Ensure that you adhere to the format of the Trigger_Data. It must be comma separated and comprise of 10 fields ONLY.**
 
 To disable this functionality set the "Trigger_Result" value to **False** and run the docker container again to reload the lookup file.
