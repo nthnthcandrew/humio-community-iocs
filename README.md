@@ -2,7 +2,7 @@
 This project uses Free and OpenSource IoC/Tracker to update Humio Repository and View Lookup files. This will allow Humio Search results to be enriched with Threat data.
 
 Currently implemented lists:
-- Feodo Tracker (https://feodotracker.abuse.ch/)
+- Feodo Tracker,  Botnet C2 Indicators Of Compromise (IOCs) - (https://feodotracker.abuse.ch/)
 
 ## How to Use this tool
 The humio-community-iocs tool is available as a docker container (alatham99/humio-community-iocs) hosted in Docker Hub. It is recommended to use the docker container where possible.
